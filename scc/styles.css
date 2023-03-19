@@ -25,12 +25,13 @@ body {
 .logo-link {
   font-family: Raleway, sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 500;
+  /* перший пункт меню */
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--active-states);
+  color: var(--overlays-color);
 }
 .accent {
   font-family: Raleway, sans-serif;
@@ -40,7 +41,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--overlays-color);
+  color: var(--active-states);
 }
 . .menu-link {
   font-style: normal;
