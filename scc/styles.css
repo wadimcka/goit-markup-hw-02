@@ -52,7 +52,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf ;
+  color: #404bbf;
 }
 
 .connection {
@@ -68,7 +68,7 @@ body {
 }
 .header-mail:hover,
 .header-mail:focus {
-  color: #404bbf ;
+  color: #404bbf;
 }
 .header-tel {
   font-style: normal;
@@ -103,25 +103,23 @@ body {
 .button {
   font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 .button.primary {
-  font-weight: 500
-  line-height: 1.5;
   color: #ffffff;
   background-color: var(--active-states);
-  }
+}
 .button.primary:hover,
 .button.primary:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
   color: #ffffff;
 }
 .button.secondary {
-    line-height: 1.5;
-    background-color: var(--overlays-scdr-color);
+  background-color: var(--overlays-scdr-color);
   color: var(--active-states);
 }
 
