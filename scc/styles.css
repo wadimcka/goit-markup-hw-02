@@ -109,6 +109,7 @@ body {
   cursor: pointer;
 }
 .button.primary {
+  font-weight: 500
   line-height: 1.5;
   color: #ffffff;
   background-color: var(--active-states);
@@ -123,7 +124,7 @@ body {
     background-color: var(--overlays-scdr-color);
   color: var(--active-states);
 }
-}
+
 .button.secondary:hover,
 .button.secondary:focus {
   background-color: var(--active-states);
