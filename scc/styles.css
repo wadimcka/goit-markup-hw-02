@@ -44,7 +44,7 @@ body {
 }
 .menu-link {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -52,7 +52,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--active-states);
+  color: #404bbf ;
 }
 
 .connection {
@@ -68,7 +68,7 @@ body {
 }
 .header-mail:hover,
 .header-mail:focus {
-  color: var(--active-states);
+  color: #404bbf ;
 }
 .header-tel {
   font-style: normal;
@@ -101,7 +101,7 @@ body {
 }
 /* Buttons */
 .button {
-  font-family: Roboto; vsans-serif,
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -115,8 +115,8 @@ body {
   }
 .button.primary:hover,
 .button.primary:focus {
-  background-color: var(--overlays-scdr-color);
-  color: var(--active-states);
+  background-color: #404BBF;
+  color: #ffffff;
 }
 .button.secondary {
     line-height: 1.5;
@@ -132,7 +132,7 @@ body {
 
 /* Subtitle */
 .subtitle {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
