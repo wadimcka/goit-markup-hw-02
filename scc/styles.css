@@ -30,7 +30,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--overlays-color);
+  color: var(--active-states);
 }
 .accent {
   font-family: Raleway, sans-serif;
@@ -40,7 +40,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--active-states);
+  color: var(--overlays-color);
 }
 . .menu-link {
   font-style: normal;
@@ -65,7 +65,10 @@ body {
 .menu-item:focus {
   color: var(--active-states);
 }
-.mail-header {
+.connection {
+  font-style: normal;
+}
+.header-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -73,11 +76,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.mail-header:hover,
-.mail-header:focus {
-  color: var(--active-states);
+.header-mail:hover,
+.header-mail:focus {
+  color: #4d5ae5;
 }
-.tel-header {
+.header-tel {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -85,9 +88,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.tel-header:hover,
-.tel-header:focus {
-  color: var(--active-states);
+.header-tel:hover,
+.header-tel:focus {
+  color: #4d5ae5;
 }
 
 /* Hero */
