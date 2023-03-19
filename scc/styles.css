@@ -42,29 +42,19 @@ body {
   text-transform: uppercase;
   color: var(--overlays-color);
 }
-. .menu-link {
+.menu-link {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--headings-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--active-states);
 }
-.menu-item {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: (--headings-text-color);
-}
-.menu-item:hover,
-.menu-item:focus {
-  color: var(--active-states);
-}
+
 .connection {
   font-style: normal;
 }
@@ -78,7 +68,7 @@ body {
 }
 .header-mail:hover,
 .header-mail:focus {
-  color: #4d5ae5;
+  color: var(--active-states);
 }
 .header-tel {
   font-style: normal;
