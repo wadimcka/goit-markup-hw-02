@@ -25,11 +25,10 @@ body {
 .logo-link {
   font-family: Raleway, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  /* перший пункт меню */
+  font-weight: 800;
   font-size: 18px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--overlays-color);
 }
@@ -53,6 +52,17 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
+  color: var(--active-states);
+}
+.menu-item {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: (--headings-text-color);
+}
+.menu-item:hover,
+.menu-item:focus {
   color: var(--active-states);
 }
 .mail-header {
