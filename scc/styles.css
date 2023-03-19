@@ -95,10 +95,44 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-/* Our Team */
-.team {
-  background-color: var(--overlays-scdr-color);
+
+/* Products */
+.products-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headings-text-color);
 }
+
+/* Our Team */
+.team-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headings-text-color);
+}
+
+.team {
+  background-color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--overlays-color);
+}
+.footer-text {
+  color: var(--accent-color);
+}
+.accent-footer {
+  color: #f4f4fd;
+}
+
 /* Buttons */
 .button {
   font-family: Roboto, sans-serif;
@@ -144,17 +178,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-/* Footer */
-.footer {
-  background-color: var(--overlays-color);
-}
-.footer-text {
-  color: var(--accent-color);
-}
-.accent-footer {
-  color: #f4f4fd;
 }
 
 /* PAGE PORTFOLIO */
