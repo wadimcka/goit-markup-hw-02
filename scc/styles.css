@@ -17,13 +17,13 @@
   text-decoration: none;
 }
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: Roboto, sans-serif;
   color: var(--main-text-color);
   background-color: #ffffff;
 }
 /* Header */
 .logo-link {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -33,7 +33,7 @@ body {
   color: #2e2f42;
 }
 .accent {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
