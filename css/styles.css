@@ -7,6 +7,8 @@
   --accent-color: #e7e9fc;
   --overlays-color: #2e2f42;
   --overlays-scdr-color: #f4f4fd;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
 
 /* RESET */
@@ -17,13 +19,13 @@
   text-decoration: none;
 }
 body {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font);
   color: var(--main-text-color);
   background-color: #ffffff;
 }
 /* Header */
 .logo-link {
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -33,7 +35,7 @@ body {
   color: var(--active-states);
 }
 .accent {
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -44,11 +46,11 @@ body {
 }
 .menu-link {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--overlays-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -56,11 +58,10 @@ body {
 }
 .header-mail {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text-color);
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -68,11 +69,10 @@ body {
 }
 .header-tel {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text-color);
 }
 .header-tel:hover,
 .header-tel:focus {
@@ -84,14 +84,32 @@ body {
   background-color: var(--overlays-color);
 }
 .hero-title {
-  font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
+/* Products */
+.products-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headings-text-color);
+}
+
 /* Our Team */
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--headings-text-color);
+}
 .team {
   background-color: var(--overlays-scdr-color);
 }
@@ -100,10 +118,11 @@ body {
 }
 /* Buttons */
 .button {
-  font-family: 'Roboto';
+  font-family: var(--primary-font);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--active-states);
   background-color: var(--button-bg-color);
@@ -128,7 +147,7 @@ body {
 
 /* Subtitle */
 .subtitle {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -137,7 +156,6 @@ body {
 
 /* DESCRIPTION */
 .description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
