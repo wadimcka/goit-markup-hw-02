@@ -30,7 +30,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--active-states);
+  color: tomato;
+  /* исправить */
 }
 .accent {
   font-family: Raleway, sans-serif;
@@ -40,7 +41,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--overlays-color);
+  color: tomato;
 }
 .menu-link {
   font-style: normal;
@@ -138,7 +139,7 @@ body {
   color: #f4f4fd;
 }
 .accent-footer {
-  color: tomato;
+  color: var(--overlays-scdr-color);
 }
 
 /* Buttons */
