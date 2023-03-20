@@ -125,15 +125,20 @@ body {
 .team-list-item {
   background-color: #ffffff;
 }
+
 /* Footer */
 .footer {
   background-color: var(--overlays-color);
 }
 .footer-text {
-  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 .accent-footer {
-  color: #f4f4fd;
+  color: tomato;
 }
 
 /* Buttons */
@@ -187,5 +192,5 @@ body {
 /* PAGE PORTFOLIO */
 
 .examples-item {
-  background-color: var(--overlays-scdr-color);
+  background-color: #ffffff;
 }
